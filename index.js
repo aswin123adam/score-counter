@@ -4,10 +4,6 @@ const guestBoard = document.getElementById("guest-score");
 let home = 0;
 let guest = 0;
 
-
-
-
-
 function homeByOne(){
     home += 1;
     homeBoard.textContent = home;
